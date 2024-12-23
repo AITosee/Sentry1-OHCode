@@ -1,0 +1,241 @@
+{
+    "kind": "CATEGORY",
+    "name": "Sentry1",
+    "colour": "#EF5411",
+    "contents": [
+        {
+            "kind": "LABEL",
+            "text": "配置参数"
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1Begin"
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1VisionSetStatus"
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1LedSetColor",
+            "inputs": {
+                "level": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1CameraSetAwb"
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1SetParamNum",
+            "inputs": {
+                "max_num": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1SetColorParam",
+            "inputs": {
+                "x": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 120
+                        }
+                    }
+                },
+                "y": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 120
+                        }
+                    }
+                },
+                "w": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 20
+                        }
+                    }
+                },
+                "h": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 20
+                        }
+                    }
+                },
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1SetBlodParam",
+            "inputs": {
+                "w": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 15
+                        }
+                    }
+                },
+                "h": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 15
+                        }
+                    }
+                },
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "LABEL",
+            "text": "运行参数"
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1Detected"
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1GetValue",
+            "inputs": {
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1ColorRcgValue",
+            "inputs": {
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1QrRcgValue"
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1GetQrCodeValue"
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1LineValue",
+            "inputs": {
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1DetectedColor",
+            "inputs": {
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1DetectedBlob",
+            "inputs": {
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1DetectedCard",
+            "inputs": {
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "kind": "BLOCK",
+            "type": "Sentry1DetectedBall",
+            "inputs": {
+                "objid": {
+                    "shadow": {
+                        "type": "math_number",
+                        "fields": {
+                            "NUM": 1
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
